@@ -1,0 +1,32 @@
+    //There will be separate classes for login, signup, and the 3 different types of users.
+    //First of all the program will have a login page and signup page.
+    //All new users will have to go to the sign up page as they will not have an account.
+    //The sign up page will ask the user to enter their name, email, username, password and code.
+    //The code will be used to check whether the user is a student, professor or admin.
+    //The codes will be provided in a README file beforehand.
+    //According to the code provided, the user will be signed up as either an admin, professor or a student.
+    //All the sign-up data will be saved using file handling.
+    //The user will then be shifted to the sign-in page.
+    //The user will be asked to enter their username and password.
+    //The program will check the username and password with the database and if it is correct then the user will be logged in.
+    //If the user is logged in as an admin, the user willl have access to all the data of every user on the program.
+    //The admin can remove or add any user to the program.
+    //The admin can assign thr mess bill for any student.
+    //The admin can log-out by typing 'logout' in the terminal.
+    //If the user is logged in as a professor, the user will have access to all the data of the students.
+    //The professor can remove any student from being registered to his course.
+    //The professor can add the courses he teaches to his profile.
+    //The professor can mark attendance of the students in his course.
+    //The professor can assign scores for students for prefinal and final.
+    //The professor can log-out by typing 'logout' in the terminal.
+    //If the user is logged in as a student, the user will have access to his own data only.
+    //The student can view his own profile and the courses he is registered to.
+    //The student can view the attendance of his courses and the scores assigned to him by the professor.
+    //The student can see his due mess bill and can pay it through the terminal.
+    //If the student wants to pay his bill, he will just have to first save his bank acc number and password in the program through an option provided for student users.
+    //The user will then go back to the mess bill option and type his passwword and the amount required.
+    //Excess or less amount will be cancelled.
+    //The user can register to courses by seeing the list of available courses.
+    //After registration, a student can either withdraw a course or drop the course.
+    //Selecting either option will not remove the account from the student profile but will show "W" or "D" in the attendance list.
+    //The user can log-out by typing 'logout' in the terminal.
