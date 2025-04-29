@@ -79,9 +79,9 @@ int main()
 
     cout << "=== Login ===" << endl;
     cout << "Enter Username: ";
-    cin >> username;
+    getline(cin,username);
     cout << "Enter Password: ";
-    cin >> password;
+    getline(cin,password); 
     
     User* loggedInUser = Login::authenticate(users, username, password);
     if (!loggedInUser) 
