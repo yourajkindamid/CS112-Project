@@ -13,10 +13,10 @@ using namespace std;
 
 int main()
 { 
-    vector<User*> users;  
+    vector<User*> users;    //this is the vector of pointers to User objects
     vector<Course*> courses;  
     
-    Course* course1 = new Course("CS101", "Introduction to Programming");
+    Course* course1 = new Course("CS101", "Introduction to Programming");   
     Course* course2 = new Course("MATH201", "Advanced Calculus");
     Course* course3 = new Course("ENG101", "English Composition");
     

@@ -7,7 +7,7 @@
 using namespace std;
 
 
-class Course;
+class Course;       //as we are requiring objects from the course class such as in the vector<Course*>
 
 class Professor : public User 
 {

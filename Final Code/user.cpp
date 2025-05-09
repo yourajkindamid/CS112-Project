@@ -38,7 +38,8 @@ void User::setName(string name)
     this->name = name;
 }
 
-void User::setEmail(string email) 
+
+void User::setEmail(string email)       //we are recieving the required data through the constructor. we only need the setters if we plan on changing the data recieevd and for encapsulation
 {
     this->email = email;
 }

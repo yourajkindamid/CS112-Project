@@ -29,7 +29,8 @@ void Professor::addCourse(string courseName)
 void Professor::viewCourses() 
 {
     cout << "\nCourses taught by Professor " << name << ":\n";
-    if (teachingCourses.empty()) {
+    if (teachingCourses.empty())    //this teachingCourse is a vector of stribgs, which is defined in the professor.h file
+    {
         cout << "You are not teaching any courses yet.\n";
         return;
     }
